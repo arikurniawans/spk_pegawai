@@ -221,8 +221,8 @@
             }else if(maxVal < tabel.rows[i].cells[2].innerHTML){
               maxVal = tabel.rows[i].cells[2].innerHTML;
               namaPegawai = tabel.rows[i].cells[1].innerHTML;
-              tabel.rows[i].style.backgroundColor='Lightgreen';
-              tabel.rows[i].style.fontWeight = 'bold';
+              // tabel.rows[i].style.backgroundColor='Lightgreen';
+              // tabel.rows[i].style.fontWeight = 'bold';
             }
             // console.log(tabel.rows[i].cells[1].innerHTML);
           }
